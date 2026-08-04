@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+<title>Blog & Articles</title>
+<meta name="description"
+      content="Latest blog posts and articles by Borhan Uddin.">
+<meta name="author"
+      content="Borhan Uddin">
+<meta name="theme-color"
+      content="#111827">
+<meta name="robots"
+      content="index, follow">
+<meta property="og:title"
+      content="Blog & Articles">
+<meta property="og:description"
+      content="Latest blog posts and articles by Borhan Uddin.">
+<meta property="og:type"
+      content="website">
+<meta property="og:url"
+      content="https://borhanee.github.io/blog/">
+<link rel="canonical"
+      href="https://borhanee.github.io/blog/">
+<link rel="icon"
+      type="image/png"
+      href="../assets/images/icon.png">
+<link rel="stylesheet"
+      href="../assets/css/style.css">
+      <script>
+(function () {
+    const params = new URLSearchParams(window.location.search);
+    const filter = params.get("filter");
+
+    if (filter === "bangla" || filter === "english") {
+        document.documentElement.dataset.blogFilter = filter;
+    } else {
+        document.documentElement.dataset.blogFilter = "all";
+    }
+})();
+</script>
+<link rel="stylesheet"
+      href="../assets/css/blog.css">
+<link rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+<header class="site-header">
+<div class="container">
+<div class="header-inner">
+<a href="../"
+   class="logo">
+Borhan<span>.</span>
+</a>
+<nav class="desktop-nav">
+<ul>
+<li>
+<a href="../">
+Home
+</a>
+</li>
+<li>
+<a href="../about/">
+About
+</a>
+</li>
+<li>
+<a href="../resume/">
+Resume
+</a>
+</li>
+<li>
+<a href="../portfolio/">
+Portfolio
+</a>
+</li>
+<li>
+<a class="active"
+   href="./">
+Blog
+</a>
+</li>
+<li>
+<a href="../contact/">
+Contact
+</a>
+</li>
+</ul>
+</nav>
+<button class="menu-toggle"
+        type="button"
+        aria-label="Open Menu"
+        aria-expanded="false">
+<svg class="icon-menu"
+     viewBox="0 0 24 24">
+<path d="M4 7h16M4 12h16M4 17h16"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2.2"
+      stroke-linecap="round"/>
+</svg>
+<svg class="icon-close"
+     viewBox="0 0 24 24">
+<path d="M6 6L18 18M18 6L6 18"
+      fill="none"
+      stroke="currentColor"
+      stroke-width="2.2"
+      stroke-linecap="round"/>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<div class="menu-overlay"></div>
+<nav class="mobile-menu">
+<ul>
+<li>
+<a href="../">
+Home
+</a>
+</li>
+<li>
+<a href="../about/">
+About
+</a>
+</li>
+<li>
+<a href="../resume/">
+Resume
+</a>
+</li>
+<li>
+<a href="../portfolio/">
+Portfolio
+</a>
+</li>
+<li>
+<a class="active"
+   href="./">
+Blog
+</a>
+</li>
+<li>
+<a href="../contact/">
+Contact
+</a>
+</li>
+</ul>
+</nav>
+<main class="blog-page">
+<div class="container">
+<div class="blog-header">
+<h1>
+Latest <span>Blog</span>
+</h1>
+</div>
+<div class="blog-filters" role="tablist" aria-label="Filter posts by language">
+    <button
+    type="button"
+    class="blog-filter-btn"
+    data-filter="all"
+    role="tab"
+    aria-selected="false">
+    All
+</button>
+    <button
+        type="button"
+        class="blog-filter-btn"
+        data-filter="bangla"
+        role="tab"
+        aria-selected="false">
+        Bangla
+    </button>
+    <button
+        type="button"
+        class="blog-filter-btn"
+        data-filter="english"
+        role="tab"
+        aria-selected="false">
+        English
+    </button>
+</div>
+<section class="blog-grid"
+         aria-label="Blog posts">
+<!-- ==========================================
+     POST 1
+========================================== -->
+<article class="blog-card" data-language="bangla">
+<div class="blog-card-content">
+<div class="blog-card-meta">
+<span>
+<i class="fa-regular fa-calendar"></i>
+August 8, 2026
+</span>
+<span>
+<i class="fa-regular fa-clock"></i>
+10 min read
+</span>
+</div>
+<h2>
+<a href="./faq-about-wikipedia/">
+উইকিপিডিয়া সম্পর্কে প্রায়শ জিজ্ঞাসিত প্রশ্ন
+</a>
+</h2>
+<p>
+উইকিপিডিয়া কী, এতে কারা লেখেন, এর তথ্য কতটা নির্ভরযোগ্য, কীভাবে সম্পাদনা শুরু করবেন এবং উইকিপিডিয়া সম্পর্কে আরও কিছু সাধারণ প্রশ্নের উত্তর।
+</p>
+<a
+    class="blog-card-link"
+    href="./faq-about-wikipedia/">
+পোস্টটি পড়ুন
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+</div>
+</article>
+<!-- ==========================================
+     POST 2
+========================================== -->
+<article class="blog-card" data-language="english">
+<div class="blog-card-content">
+<div class="blog-card-meta">
+<span>
+<i class="fa-regular fa-calendar"></i>
+August 1, 2026
+</span>
+<span>
+<i class="fa-regular fa-clock"></i>
+2 min read
+</span>
+</div>
+<h2>
+<a href="./contributing-to-wikipedia/">
+Contributing to Wikipedia
+</a>
+</h2>
+<p>
+A personal reflection on contributing to Wikipedia, improving articles, using reliable sources, and documenting local and regional topics.
+</p>
+<a
+    class="blog-card-link"
+    href="./contributing-to-wikipedia/">
+Read Article
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+</div>
+</article>
+<!-- ==========================================
+     POST 3
+========================================== -->
+<article class="blog-card" data-language="english">
+<div class="blog-card-content">
+<div class="blog-card-meta">
+<span>
+<i class="fa-regular fa-calendar"></i>
+July 27, 2026
+</span>
+<span>
+<i class="fa-regular fa-clock"></i>
+4 min read
+</span>
+</div>
+<h2>
+<a href="./who-writes-wikipedia/">
+Who Writes Wikipedia?
+</a>
+</h2>
+<p>
+An introduction to the people behind Wikipedia, how volunteers contribute, and how reliable sources help maintain the encyclopedia.
+</p>
+<a
+    class="blog-card-link"
+    href="./who-writes-wikipedia/">
+Read Article
+<i class="fa-solid fa-arrow-right"></i>
+</a>
+</div>
+</article>
+</section>
+</div>
+</main>
+<footer class="site-footer">
+<div class="container footer-content">
+<div class="footer-divider"></div>
+<p class="footer-copy">
+© <span id="current-year"></span> Borhan Uddin. All Rights Reserved.
+</p>
+<nav class="footer-links">
+<a href="../about/">
+About
+</a>
+<a href="../portfolio/">
+Portfolio
+</a>
+<a href="../contact/">
+Contact
+</a>
+<a href="https://github.com/borhanee"
+   target="_blank"
+   rel="noopener">
+<i class="fa-brands fa-github"></i>
+</a>
+<a href="https://linkedin.com/in/borhaan"
+   target="_blank"
+   rel="noopener">
+<i class="fa-brands fa-linkedin"></i>
+</a>
+<a href="https://x.com/borhaane"
+   target="_blank"
+   rel="noopener">
+<i class="fa-brands fa-x-twitter"></i>
+</a>
+</nav>
+</div>
+</footer>
+<script src="../assets/js/main.js"></script>
+<script src="../assets/js/blog.js"></script>
+</body>
+</html>
