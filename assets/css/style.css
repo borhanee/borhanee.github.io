@@ -913,6 +913,7 @@ p{
     display:flex;
     flex-direction:column;
     gap:20px;
+    width:83%;
     max-width:360px;
     margin:0 auto;
 }
