@@ -1023,7 +1023,7 @@ p{
 
 .form-group textarea{
     resize:none;
-    height:172px;
+    height:auto;
     line-height:1.5;
 }
 
